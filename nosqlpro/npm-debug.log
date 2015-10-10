@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongodb@3.0.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'mongodb@3.0.0', null ]
+6 verbose cache add name=undefined spec="mongodb@3.0.0" args=["mongodb@3.0.0",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mongodb@3.0.0',
+7 verbose parsed url   path: 'mongodb@3.0.0',
+7 verbose parsed url   href: 'mongodb@3.0.0' }
+8 verbose cache add name="mongodb" spec="3.0.0" args=["mongodb","3.0.0"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '3.0.0',
+9 verbose parsed url   path: '3.0.0',
+9 verbose parsed url   href: '3.0.0' }
+10 verbose addNamed [ 'mongodb', '3.0.0' ]
+11 verbose addNamed [ '3.0.0', '3.0.0' ]
+12 silly lockFile 14acc7d3-mongodb-3-0-0 mongodb@3.0.0
+13 verbose lock mongodb@3.0.0 C:\Users\stephench\AppData\Roaming\npm-cache\14acc7d3-mongodb-3-0-0.lock
+14 verbose request where is /mongodb
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 3c6dfdfe2f48f7cf
+17 verbose url raw /mongodb
+18 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+19 verbose url resolved https://registry.npmjs.org/mongodb
+20 verbose request where is https://registry.npmjs.org/mongodb
+21 info trying registry request attempt 1 at 20:50:44
+22 verbose etag "BLE4RXK26U20PC4SXH2UCGDH8"
+23 http GET https://registry.npmjs.org/mongodb
+24 http 304 https://registry.npmjs.org/mongodb
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Wed, 30 Sep 2015 12:50:46 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"BLE4RXK26U20PC4SXH2UCGDH8"',
+25 silly registry.get     age: '6',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-hkg6826-HKG',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '2',
+25 silly registry.get     'x-timer': 'S1443617446.241992,VS0,VE0',
+25 silly registry.get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/mongodb from cache
+27 silly lockFile 14acc7d3-mongodb-3-0-0 mongodb@3.0.0
+28 silly lockFile 14acc7d3-mongodb-3-0-0 mongodb@3.0.0
+29 error Error: version not found: mongodb@3.0.0
+29 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+29 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+29 error     at Object.oncomplete (fs.js:107:15)
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongodb@3.0.0"
+33 error cwd C:\NodeJS\nosqlpro
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 verbose exit [ 1, true ]
